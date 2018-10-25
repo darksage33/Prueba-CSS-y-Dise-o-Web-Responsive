@@ -1,12 +1,12 @@
-Evaluaci髇 Final CSS y Dise駉 Web Responsive 25/10/2018
+Evaluaci贸n Final CSS y Dise帽o Web Responsive 25/10/2018
 ---------- CONTACTO --------
 Carlos Enrique La Mota Martillo
 E-mail: darksage2013@gmail.com
 Celular: 593 969729902
 --------------------------------------
 --------- DATOS GENERALES ------------
-Para el desarrollo de la evaluaci髇 final de CSS y Dise駉 Web Responsive se utilizo el programa Sublime Text 3 para la generaci髇 del codigo HTML5 y CSS3. Tiempo en que se ejecuto la evaluaci髇 5 dias.
+Para el desarrollo de la evaluaci贸n final de CSS y Dise帽o Web Responsive se utilizo el programa Sublime Text 3 para la generaci贸n del codigo HTML5 y CSS3. Tiempo en que se ejecuto la evaluaci贸n 2 dias.
 ---------------------------------------
-〤opyright 2018 
+漏Copyright 2018 
 
 
