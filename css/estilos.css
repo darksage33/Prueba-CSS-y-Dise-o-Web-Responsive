@@ -1,0 +1,343 @@
+@font-face {
+  font-family: 'dancingscript';
+  src:url('dancingscript.ttf');
+}
+
+#contenido{
+  width: 900px;
+  align-items: center;
+}
+
+header h1{
+  display: flex;
+  text-align: left;
+  padding-left: 10px;
+}
+
+header nav{
+  list-style-type:none;
+  text-align: right;
+  font-size:20px;
+  padding-bottom: 10px;
+  padding-right: 2%;
+  word-spacing: 10px;
+}
+#principal{
+  background-color: #82c3a6;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+.inicio{
+  padding: 3px;
+  width: 100%;
+}
+#imagenes {
+  background-color: #d5c75f;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.paisaje:hover{
+  transform: rotate(10deg);
+  box-shadow: #82c3a6;
+  border: 2px ;
+  float: right;
+  order: 0;
+  padding: 3px;
+}
+
+.retrato:hover{
+  transform:translate(20px, -20px);
+  box-shadow: #82c3a6;
+  border: 2px ;
+  float: left;
+  order: 1;
+  padding: 3px;
+}
+
+#piedepagina{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+.contacto{
+  padding: 20px;
+  color: black;
+  text-align: left;
+  order: 2;
+}
+.termino{
+  padding: 20px;
+  color: black;
+  text-align: left;
+  order: 3;
+}
+.redessociales{
+  padding: 20px;
+  color: black;
+  text-align: left;
+  order: 4;
+}
+.derechos{
+  padding: 20px;
+  color: black;
+  text-align: left;
+  order: 5;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px){
+  #contenido {
+    width: 600px;
+  }
+  header h1{
+    display: flex;
+    text-align: left;
+  }
+
+  header nav{
+    list-style-type:none;
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  #imagenes {
+    background-color: #d5c75f;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+  }
+  .paisaje:hover{
+    transform: rotate(10deg);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    float: right;
+    order: 0;
+  }
+  .retrato:hover{
+    transform:translate(20px, -20px);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    float: left;
+    order: 1;
+  }
+  #piedepagina{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contacto{
+    padding: 20px;
+    color: black;
+    order: 2;
+  }
+  .termino{
+    padding: 20px;
+    color: black;
+    order: 3;
+  }
+  .redessociales{
+    padding: 20px;
+    color: black;
+    order: 4;
+  }
+  .derechos{
+    padding: 20px;
+    color: black;
+    order: 5;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 699px){
+  #contenido {
+    width: 400px;
+  }
+
+  header h1{
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header nav{
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+
+  #imagenes {
+    background-color: #d5c75f;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .paisaje:hover{
+    transform: rotate(10deg);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    flex-direction: column;
+    order: 0;
+  }
+  .retrato:hover{
+    transform:translate(20px, -20px);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    flex-direction: column;
+    order: 1;
+  }
+
+  #piedepagina{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .contacto{
+    padding: 20px;
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 2;
+}
+  .termino{
+    padding: 20px;
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 3;
+  }
+  .redessociales{
+    padding: 20px;
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 4;
+  }
+  .derechos{
+    padding: 20px;
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 5;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 399px){
+  #contenido{
+    width: 300px;
+  }
+
+  header h1{
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header nav{
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+
+  #imagenes {
+    background-color: #d5c75f;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .paisaje:hover{
+    transform: rotate(10deg);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    flex-direction: column;
+    order: 0;
+  }
+  .retrato:hover{
+    transform:translate(20px, -20px);
+    box-shadow: #82c3a6;
+    border: 2px ;
+    flex-direction: column;
+    order: 1;
+  }
+
+  #piedepagina{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .contacto{
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 2;
+  }
+  .termino{
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 3;
+  }
+  .redessociales{
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 4;
+  }
+  .derechos{
+    color: black;
+    text-align: left;
+    flex-direction: column;
+    order: 5;
+  }
+}
+
+body{
+  font-family: dancingscript;
+  background-color: black;
+}
+
+header{
+  color: white;
+  text-shadow: 1px 2px #02010a;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 auto;
+}
+
+img{
+  -webkit-box-shadow: 2px 2px 2px 0px ;
+  -moz-box-shadow: 2px 2px 2px 0px ;
+  box-shadow: 2px 2px 2px 0px ;
+  color: color: #02010a;
+}
+
+#imagenes p{
+  text-align: center;
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+
+}
+
+body{
+  animation: 1s slidein ;
+}
+
+@-webkit-keyframes slidein {
+  100%{
+    transform: translateY(10px);
+    margin-top: : 80%;
+  }
+
+  60%{
+    transform: translateY(-5%;);
+    margin-top: -30%;
+  }
+  0%{
+    transform: translateY(50%);
+    margin-top: 150%;
+  }
